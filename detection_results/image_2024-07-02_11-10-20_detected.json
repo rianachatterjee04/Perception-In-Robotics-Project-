@@ -1,0 +1,81 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "exercise ball",
+      "attributes": {
+        "description": "A large blue exercise ball on the floor",
+        "color": "blue",
+        "size": "large",
+        "location": "floor"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 250,
+        "lower_y": 200,
+        "upper_x": 350,
+        "upper_y": 300
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "barbell",
+      "attributes": {
+        "description": "A barbell with weights on the floor",
+        "color": "black and silver",
+        "size": "medium",
+        "location": "floor"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 250,
+        "upper_x": 450,
+        "upper_y": 320
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "bench",
+      "attributes": {
+        "description": "A workout bench near the barbell",
+        "color": "gray",
+        "size": "medium",
+        "location": "floor"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 400,
+        "lower_y": 220,
+        "upper_x": 500,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "room",
+      "attributes": {
+        "description": "A gym room with exercise equipment",
+        "color": "n/a",
+        "size": "large",
+        "location": "indoor"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-10-20.jpg",
+  "position_x": 1.2373551544526045,
+  "position_y": 2.609387475686525,
+  "orientation_yaw": 0.9000634846952967,
+  "sequence_number": 9
+}

@@ -1,0 +1,64 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "sofa",
+      "attributes": {
+        "description": "A large gray sofa with cushions",
+        "color": "gray",
+        "size": "large",
+        "location": "center of the room"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 120,
+        "lower_y": 150,
+        "upper_x": 520,
+        "upper_y": 380
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "floor",
+      "attributes": {
+        "description": "A wooden floor with a light finish",
+        "color": "light wood",
+        "size": "large",
+        "location": "bottom of the image"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 400,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "rug",
+      "attributes": {
+        "description": "A small gray rug beneath the sofa",
+        "color": "gray",
+        "size": "small",
+        "location": "under the sofa"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 120,
+        "lower_y": 350,
+        "upper_x": 520,
+        "upper_y": 400
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-16-26.jpg",
+  "position_x": 0.3995921331002211,
+  "position_y": -4.277891610153622,
+  "orientation_yaw": 1.8465126971356152,
+  "sequence_number": 65
+}

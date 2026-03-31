@@ -1,0 +1,81 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "wooden table",
+      "attributes": {
+        "description": "A wooden table surface in the foreground",
+        "color": "light brown",
+        "size": "large",
+        "location": "foreground"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 300,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "gray wall",
+      "attributes": {
+        "description": "A gray wall on the left side",
+        "color": "gray",
+        "size": "large",
+        "location": "left side"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 320,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "white wall",
+      "attributes": {
+        "description": "A white wall on the right side",
+        "color": "white",
+        "size": "large",
+        "location": "right side"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 320,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "picture frame",
+      "attributes": {
+        "description": "A picture frame hanging on the gray wall",
+        "color": "dark",
+        "size": "medium",
+        "location": "upper left"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 10,
+        "lower_y": 10,
+        "upper_x": 150,
+        "upper_y": 150
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-23-33.jpg",
+  "position_x": -3.9857469540797092,
+  "position_y": -4.357150599546214,
+  "orientation_yaw": -0.49869626045238535,
+  "sequence_number": 99
+}

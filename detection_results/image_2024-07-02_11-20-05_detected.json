@@ -1,0 +1,115 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "door",
+      "attributes": {
+        "description": "A partially open glass door with a black frame",
+        "color": "black",
+        "size": "medium",
+        "location": "center left"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 120,
+        "lower_y": 100,
+        "upper_x": 240,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "floor",
+      "attributes": {
+        "description": "Wooden flooring with a light brown finish",
+        "color": "light brown",
+        "size": "large",
+        "location": "bottom"
+      },
+      "confidence": 0.98,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 300,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "chandelier",
+      "attributes": {
+        "description": "A chandelier hanging from the ceiling",
+        "color": "dark",
+        "size": "medium",
+        "location": "top center"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 400,
+        "lower_y": 50,
+        "upper_x": 480,
+        "upper_y": 150
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "refrigerator",
+      "attributes": {
+        "description": "A large silver refrigerator",
+        "color": "silver",
+        "size": "large",
+        "location": "right center"
+      },
+      "confidence": 0.97,
+      "boundaries": {
+        "lower_x": 500,
+        "lower_y": 150,
+        "upper_x": 600,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "bucket",
+      "attributes": {
+        "description": "A blue bucket on the floor",
+        "color": "blue",
+        "size": "medium",
+        "location": "right"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 550,
+        "lower_y": 350,
+        "upper_x": 600,
+        "upper_y": 450
+      }
+    },
+    {
+      "object_id": 6,
+      "type": "room",
+      "attributes": {
+        "description": "A kitchen area visible through the door",
+        "color": "varied",
+        "size": "large",
+        "location": "background"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 100,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-20-05.jpg",
+  "position_x": -3.719578673549628,
+  "position_y": 0.5392950584545967,
+  "orientation_yaw": 0.38161159842822706,
+  "sequence_number": 72
+}

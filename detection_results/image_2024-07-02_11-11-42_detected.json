@@ -1,0 +1,113 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "kitchen",
+      "attributes": {
+        "description": "A kitchen area with various appliances and furniture",
+        "location": "background"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "blue cup with red stars",
+      "attributes": {
+        "description": "A blue cup with red stars on a carpet",
+        "color": "blue with red stars",
+        "size": "medium",
+        "location": "foreground"
+      },
+      "confidence": 0.98,
+      "boundaries": {
+        "lower_x": 250,
+        "lower_y": 320,
+        "upper_x": 350,
+        "upper_y": 420
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "refrigerator",
+      "attributes": {
+        "description": "A large silver refrigerator",
+        "color": "silver",
+        "size": "large",
+        "location": "background left"
+      },
+      "confidence": 0.96,
+      "boundaries": {
+        "lower_x": 100,
+        "lower_y": 100,
+        "upper_x": 200,
+        "upper_y": 300
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "dining table",
+      "attributes": {
+        "description": "A dining table with chairs",
+        "color": "dark",
+        "size": "large",
+        "location": "left"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 150,
+        "upper_x": 150,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "chandelier",
+      "attributes": {
+        "description": "A decorative chandelier hanging from the ceiling",
+        "color": "brown",
+        "size": "medium",
+        "location": "ceiling"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 200,
+        "lower_y": 50,
+        "upper_x": 300,
+        "upper_y": 150
+      }
+    },
+    {
+      "object_id": 6,
+      "type": "cabinet",
+      "attributes": {
+        "description": "A wooden cabinet with multiple compartments",
+        "color": "wooden",
+        "size": "large",
+        "location": "right"
+      },
+      "confidence": 0.91,
+      "boundaries": {
+        "lower_x": 400,
+        "lower_y": 200,
+        "upper_x": 500,
+        "upper_y": 400
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-11-42.jpg",
+  "position_x": 1.4705913582357122,
+  "position_y": -0.20130471181625792,
+  "orientation_yaw": -0.4932456493079686,
+  "sequence_number": 24
+}

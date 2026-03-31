@@ -1,0 +1,115 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "orange chair",
+      "attributes": {
+        "description": "An orange chair with a black base",
+        "color": "orange",
+        "size": "medium",
+        "location": "near the window"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 150,
+        "lower_y": 200,
+        "upper_x": 300,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "orange chair",
+      "attributes": {
+        "description": "Another orange chair with a black base",
+        "color": "orange",
+        "size": "medium",
+        "location": "near the window"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 350,
+        "lower_y": 200,
+        "upper_x": 500,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "window",
+      "attributes": {
+        "description": "A large window with multiple panes",
+        "color": "white frame",
+        "size": "large",
+        "location": "right wall"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 50,
+        "upper_x": 600,
+        "upper_y": 200
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "glass door",
+      "attributes": {
+        "description": "A glass door with black frames",
+        "color": "black frame",
+        "size": "large",
+        "location": "left wall"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 50,
+        "upper_x": 150,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "carpet",
+      "attributes": {
+        "description": "A gray carpet on the floor",
+        "color": "gray",
+        "size": "large",
+        "location": "floor"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 350,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 6,
+      "type": "room",
+      "attributes": {
+        "description": "A room with chairs and large windows",
+        "color": "n/a",
+        "size": "n/a",
+        "location": "n/a"
+      },
+      "confidence": 0.8,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-10-40.jpg",
+  "position_x": 1.7602942702861153,
+  "position_y": 4.55164523104695,
+  "orientation_yaw": 3.0971233125809303,
+  "sequence_number": 16
+}

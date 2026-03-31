@@ -1,0 +1,81 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "brick wall",
+      "attributes": {
+        "description": "A gray brick wall with a textured surface",
+        "color": "gray",
+        "size": "large",
+        "location": "center"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "wooden floor",
+      "attributes": {
+        "description": "A light wooden floor with visible grain patterns",
+        "color": "light brown",
+        "size": "large",
+        "location": "bottom"
+      },
+      "confidence": 0.98,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 350,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "door",
+      "attributes": {
+        "description": "A black framed glass door",
+        "color": "black",
+        "size": "tall",
+        "location": "left"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 50,
+        "upper_x": 100,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "picture frame",
+      "attributes": {
+        "description": "A framed picture on the wall",
+        "color": "varied",
+        "size": "medium",
+        "location": "right"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 500,
+        "lower_y": 100,
+        "upper_x": 600,
+        "upper_y": 200
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-20-21.jpg",
+  "position_x": -3.283615177039211,
+  "position_y": 0.01185103744130785,
+  "orientation_yaw": -1.9504177716268158,
+  "sequence_number": 75
+}

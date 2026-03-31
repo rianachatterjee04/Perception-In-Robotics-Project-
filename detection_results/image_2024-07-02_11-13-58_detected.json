@@ -1,0 +1,115 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "television",
+      "attributes": {
+        "description": "A large flat-screen television mounted on the wall",
+        "color": "black",
+        "size": "large",
+        "location": "wall"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 10,
+        "lower_y": 50,
+        "upper_x": 150,
+        "upper_y": 200
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "wooden cabinet",
+      "attributes": {
+        "description": "A long wooden cabinet below the television",
+        "color": "brown",
+        "size": "long",
+        "location": "floor"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 10,
+        "lower_y": 210,
+        "upper_x": 300,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "picture frame",
+      "attributes": {
+        "description": "A small picture frame on the cabinet",
+        "color": "gold",
+        "size": "small",
+        "location": "cabinet"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 210,
+        "upper_x": 70,
+        "upper_y": 230
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "sofa",
+      "attributes": {
+        "description": "A set of gray sofas arranged in a row",
+        "color": "gray",
+        "size": "large",
+        "location": "floor"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 320,
+        "lower_y": 220,
+        "upper_x": 600,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "glass doors",
+      "attributes": {
+        "description": "A set of glass doors at the far end of the room",
+        "color": "transparent",
+        "size": "large",
+        "location": "wall"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 170,
+        "lower_y": 50,
+        "upper_x": 300,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 6,
+      "type": "room",
+      "attributes": {
+        "description": "A living room with sofas and a television",
+        "color": "varied",
+        "size": "large",
+        "location": "indoor"
+      },
+      "confidence": 0.97,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-13-58.jpg",
+  "position_x": 2.827140716645284,
+  "position_y": -3.9678920248589353,
+  "orientation_yaw": 3.081902640411821,
+  "sequence_number": 43
+}

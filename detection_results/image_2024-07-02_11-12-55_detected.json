@@ -1,0 +1,64 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "kitchen cabinet",
+      "attributes": {
+        "description": "A set of white kitchen cabinets with panel doors",
+        "color": "white",
+        "size": "large",
+        "location": "against the wall"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 100,
+        "upper_x": 590,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "wooden floor",
+      "attributes": {
+        "description": "A light brown wooden floor",
+        "color": "light brown",
+        "size": "large",
+        "location": "floor"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 400,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "room",
+      "attributes": {
+        "description": "A kitchen room",
+        "color": "white and brown",
+        "size": "medium",
+        "location": "indoor"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-12-55.jpg",
+  "position_x": 7.608773226036548,
+  "position_y": -3.8231973510875497,
+  "orientation_yaw": -0.5176593056989367,
+  "sequence_number": 36
+}

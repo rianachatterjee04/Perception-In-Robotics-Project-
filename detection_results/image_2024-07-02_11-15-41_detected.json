@@ -1,0 +1,98 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "sofa",
+      "attributes": {
+        "description": "A large white sofa with multiple cushions",
+        "color": "white",
+        "size": "large",
+        "location": "center of the room"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 150,
+        "upper_x": 300,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "chandelier",
+      "attributes": {
+        "description": "A wooden chandelier hanging from the ceiling",
+        "color": "brown",
+        "size": "medium",
+        "location": "ceiling"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 200,
+        "lower_y": 50,
+        "upper_x": 250,
+        "upper_y": 100
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "coffee table",
+      "attributes": {
+        "description": "A wooden coffee table in front of the sofa",
+        "color": "brown",
+        "size": "medium",
+        "location": "near the sofa"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 150,
+        "lower_y": 200,
+        "upper_x": 250,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "blue ball",
+      "attributes": {
+        "description": "A small blue ball near the coffee table",
+        "color": "blue",
+        "size": "small",
+        "location": "near the coffee table"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 260,
+        "lower_y": 230,
+        "upper_x": 280,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "room",
+      "attributes": {
+        "description": "A living room with furniture and decorations",
+        "color": "varied",
+        "size": "large",
+        "location": "indoor"
+      },
+      "confidence": 0.98,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-15-41.jpg",
+  "position_x": 1.8137241409120386,
+  "position_y": -4.295942416978046,
+  "orientation_yaw": 1.6671395603140433,
+  "sequence_number": 59
+}

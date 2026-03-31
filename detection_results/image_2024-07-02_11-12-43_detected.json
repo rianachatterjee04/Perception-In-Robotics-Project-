@@ -1,0 +1,64 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "kitchen cabinet",
+      "attributes": {
+        "description": "A series of white kitchen cabinets with multiple doors",
+        "color": "white",
+        "size": "large",
+        "location": "against the wall"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 100,
+        "upper_x": 580,
+        "upper_y": 300
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "floor",
+      "attributes": {
+        "description": "Wooden floor with a light finish",
+        "color": "light brown",
+        "size": "spacious",
+        "location": "bottom of the image"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 350,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "room",
+      "attributes": {
+        "description": "A kitchen with cabinets and a wooden floor",
+        "color": "white and light brown",
+        "size": "medium",
+        "location": "indoor"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-12-43.jpg",
+  "position_x": 7.587977874602185,
+  "position_y": -2.4797821294611255,
+  "orientation_yaw": -0.352898910517815,
+  "sequence_number": 34
+}

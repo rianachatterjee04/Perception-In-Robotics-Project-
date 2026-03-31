@@ -1,0 +1,107 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "room",
+      "attributes": {
+        "description": "A room with a window, curtain, trash can, table, and chair",
+        "likely_type": "living room or office"
+      },
+      "confidence": 0.85
+    },
+    {
+      "object_id": 2,
+      "type": "window",
+      "attributes": {
+        "description": "A large window with multiple panes",
+        "color": "white frame",
+        "size": "large",
+        "location": "wall"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 10,
+        "lower_y": 10,
+        "upper_x": 150,
+        "upper_y": 200
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "curtain",
+      "attributes": {
+        "description": "A long grey curtain hanging beside the window",
+        "color": "grey",
+        "size": "long",
+        "location": "beside window"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 160,
+        "lower_y": 10,
+        "upper_x": 180,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "trash can",
+      "attributes": {
+        "description": "A white trash can with red stars",
+        "color": "white with red stars",
+        "size": "medium",
+        "location": "floor near table"
+      },
+      "confidence": 0.97,
+      "boundaries": {
+        "lower_x": 200,
+        "lower_y": 300,
+        "upper_x": 240,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "table",
+      "attributes": {
+        "description": "A small wooden table with a drawer",
+        "color": "wooden",
+        "size": "small",
+        "location": "near chair"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 250,
+        "lower_y": 300,
+        "upper_x": 350,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 6,
+      "type": "chair",
+      "attributes": {
+        "description": "A blue upholstered chair",
+        "color": "blue",
+        "size": "medium",
+        "location": "next to table"
+      },
+      "confidence": 0.94,
+      "boundaries": {
+        "lower_x": 360,
+        "lower_y": 300,
+        "upper_x": 460,
+        "upper_y": 400
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-21-51.jpg",
+  "position_x": -7.467910368278262,
+  "position_y": 0.38503062946912475,
+  "orientation_yaw": 2.7967987407053685,
+  "sequence_number": 85
+}

@@ -1,0 +1,98 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "bed",
+      "attributes": {
+        "description": "A large white bed with a headboard",
+        "color": "white",
+        "size": "large",
+        "location": "left side of the room"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 200,
+        "upper_x": 400,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "nightstand",
+      "attributes": {
+        "description": "A white nightstand with two drawers",
+        "color": "white",
+        "size": "medium",
+        "location": "right side of the bed"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 420,
+        "lower_y": 250,
+        "upper_x": 520,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "red object on nightstand",
+      "attributes": {
+        "description": "A small red object, possibly a can, on the nightstand",
+        "color": "red",
+        "size": "small",
+        "location": "top of the nightstand"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 470,
+        "lower_y": 230,
+        "upper_x": 490,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "floor",
+      "attributes": {
+        "description": "A wooden floor with visible planks",
+        "color": "light brown",
+        "size": "large",
+        "location": "bottom of the image"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 350,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "room",
+      "attributes": {
+        "description": "A bedroom with a bed and a nightstand",
+        "color": "n/a",
+        "size": "n/a",
+        "location": "n/a"
+      },
+      "confidence": 0.98,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-21-23.jpg",
+  "position_x": -4.981251741398177,
+  "position_y": -0.13515620568455866,
+  "orientation_yaw": 1.7826322971473068,
+  "sequence_number": 82
+}

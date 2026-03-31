@@ -1,0 +1,81 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "room",
+      "attributes": {
+        "description": "A modern living room with a chandelier and a partition wall",
+        "color": "various",
+        "size": "large",
+        "location": "indoor"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "chandelier",
+      "attributes": {
+        "description": "A hanging chandelier with multiple lights",
+        "color": "black",
+        "size": "medium",
+        "location": "ceiling"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 50,
+        "lower_y": 50,
+        "upper_x": 150,
+        "upper_y": 150
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "partition wall",
+      "attributes": {
+        "description": "A grey partition wall with supporting poles",
+        "color": "grey",
+        "size": "large",
+        "location": "center"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 200,
+        "lower_y": 100,
+        "upper_x": 440,
+        "upper_y": 380
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "floor",
+      "attributes": {
+        "description": "A wooden floor with a rug",
+        "color": "light brown",
+        "size": "large",
+        "location": "bottom"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 380,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-15-07.jpg",
+  "position_x": -1.611497064380073,
+  "position_y": -2.1550025457667683,
+  "orientation_yaw": 0.4986061573353426,
+  "sequence_number": 56
+}

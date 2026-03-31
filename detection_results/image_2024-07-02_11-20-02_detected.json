@@ -1,0 +1,98 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "bed",
+      "attributes": {
+        "description": "A bed with a patterned bedspread",
+        "color": "white and patterned",
+        "size": "large",
+        "location": "left side of the room"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 10,
+        "lower_y": 100,
+        "upper_x": 300,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "nightstand",
+      "attributes": {
+        "description": "A white nightstand with two drawers",
+        "color": "white",
+        "size": "medium",
+        "location": "center of the room"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 320,
+        "lower_y": 200,
+        "upper_x": 400,
+        "upper_y": 300
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "red object on nightstand",
+      "attributes": {
+        "description": "A small red object on top of the nightstand",
+        "color": "red",
+        "size": "small",
+        "location": "on top of the nightstand"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 350,
+        "lower_y": 180,
+        "upper_x": 370,
+        "upper_y": 200
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "wardrobe",
+      "attributes": {
+        "description": "A wooden wardrobe with louvered doors",
+        "color": "wooden",
+        "size": "large",
+        "location": "right side of the room"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 420,
+        "lower_y": 100,
+        "upper_x": 600,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "room",
+      "attributes": {
+        "description": "A bedroom with a bed, nightstand, and wardrobe",
+        "color": "neutral tones",
+        "size": "medium",
+        "location": "indoor"
+      },
+      "confidence": 0.99,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-20-02.jpg",
+  "position_x": -3.739280440065309,
+  "position_y": 0.5639401099372847,
+  "orientation_yaw": 1.6358365631504554,
+  "sequence_number": 69
+}

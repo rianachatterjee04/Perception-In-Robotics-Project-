@@ -1,0 +1,160 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "room",
+      "attributes": {
+        "description": "A spacious dining room with a table and chairs",
+        "room_type": "dining room"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "table",
+      "attributes": {
+        "description": "A wooden dining table",
+        "material": "wood",
+        "color": "light brown",
+        "location": "center of the room"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 250,
+        "upper_x": 450,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "chair",
+      "attributes": {
+        "description": "Blue dining chairs around the table",
+        "color": "blue",
+        "quantity": "multiple",
+        "location": "around the table"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 320,
+        "lower_y": 260,
+        "upper_x": 440,
+        "upper_y": 360
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "refrigerator",
+      "attributes": {
+        "description": "A large silver refrigerator",
+        "color": "silver",
+        "size": "large",
+        "location": "right side of the room"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 500,
+        "lower_y": 200,
+        "upper_x": 600,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "light fixture",
+      "attributes": {
+        "description": "A chandelier-style light fixture",
+        "style": "chandelier",
+        "location": "ceiling"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 100,
+        "lower_y": 50,
+        "upper_x": 200,
+        "upper_y": 150
+      }
+    },
+    {
+      "object_id": 6,
+      "type": "blue ball",
+      "attributes": {
+        "description": "A blue ball near a bucket",
+        "color": "blue",
+        "size": "medium",
+        "location": "near the bucket"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 150,
+        "lower_y": 300,
+        "upper_x": 200,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 7,
+      "type": "bucket",
+      "attributes": {
+        "description": "A bucket with star patterns",
+        "color": "white with red stars",
+        "size": "medium",
+        "location": "left side of the room"
+      },
+      "confidence": 0.87,
+      "boundaries": {
+        "lower_x": 100,
+        "lower_y": 300,
+        "upper_x": 150,
+        "upper_y": 350
+      }
+    },
+    {
+      "object_id": 8,
+      "type": "rug",
+      "attributes": {
+        "description": "A gray rug on the floor",
+        "color": "gray",
+        "location": "left side of the room"
+      },
+      "confidence": 0.89,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 300,
+        "upper_x": 200,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 9,
+      "type": "wall picture",
+      "attributes": {
+        "description": "A picture frame on the wall",
+        "location": "near the door"
+      },
+      "confidence": 0.86,
+      "boundaries": {
+        "lower_x": 250,
+        "lower_y": 150,
+        "upper_x": 300,
+        "upper_y": 200
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-15-44.jpg",
+  "position_x": 2.0519045760874604,
+  "position_y": -3.706754293264661,
+  "orientation_yaw": 1.0613679733128338,
+  "sequence_number": 60
+}

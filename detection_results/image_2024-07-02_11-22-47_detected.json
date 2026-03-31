@@ -1,0 +1,98 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "blue ball",
+      "attributes": {
+        "description": "A large blue ball on the floor",
+        "color": "blue",
+        "size": "large",
+        "location": "floor"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 10,
+        "lower_y": 300,
+        "upper_x": 150,
+        "upper_y": 450
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "orange chair",
+      "attributes": {
+        "description": "An orange chair with a black base",
+        "color": "orange and black",
+        "size": "medium",
+        "location": "near the wall"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 250,
+        "upper_x": 400,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "portrait",
+      "attributes": {
+        "description": "A framed portrait hanging on the wall",
+        "color": "varied",
+        "size": "small",
+        "location": "wall"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 450,
+        "lower_y": 100,
+        "upper_x": 500,
+        "upper_y": 200
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "window",
+      "attributes": {
+        "description": "A window with four panes",
+        "color": "white frame",
+        "size": "large",
+        "location": "wall"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 550,
+        "lower_y": 50,
+        "upper_x": 640,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "room",
+      "attributes": {
+        "description": "A room with a wooden floor and white walls",
+        "color": "white and wood",
+        "size": "medium",
+        "location": "indoor"
+      },
+      "confidence": 0.85,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-22-47.jpg",
+  "position_x": -6.662660180396931,
+  "position_y": -2.5133552841674596,
+  "orientation_yaw": -2.375446202304932,
+  "sequence_number": 93
+}

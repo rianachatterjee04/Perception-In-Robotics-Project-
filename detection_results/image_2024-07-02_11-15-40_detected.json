@@ -1,0 +1,98 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "room",
+      "attributes": {
+        "description": "A spacious living room area",
+        "color": "varied",
+        "size": "large",
+        "location": "indoor"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "sofa",
+      "attributes": {
+        "description": "A modern gray sofa",
+        "color": "gray",
+        "size": "medium",
+        "location": "left side of the room"
+      },
+      "confidence": 0.92,
+      "boundaries": {
+        "lower_x": 20,
+        "lower_y": 100,
+        "upper_x": 150,
+        "upper_y": 300
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "blue ball",
+      "attributes": {
+        "description": "A small blue ball near the wall",
+        "color": "blue",
+        "size": "small",
+        "location": "near the wall"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 300,
+        "lower_y": 200,
+        "upper_x": 320,
+        "upper_y": 220
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "dining table",
+      "attributes": {
+        "description": "A wooden dining table with chairs",
+        "color": "wooden",
+        "size": "large",
+        "location": "right side of the room"
+      },
+      "confidence": 0.93,
+      "boundaries": {
+        "lower_x": 400,
+        "lower_y": 250,
+        "upper_x": 600,
+        "upper_y": 400
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "painting",
+      "attributes": {
+        "description": "A framed painting on the wall",
+        "color": "varied",
+        "size": "medium",
+        "location": "on the wall"
+      },
+      "confidence": 0.88,
+      "boundaries": {
+        "lower_x": 500,
+        "lower_y": 100,
+        "upper_x": 550,
+        "upper_y": 150
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-15-40.jpg",
+  "position_x": 1.8142576175479501,
+  "position_y": -4.29767678699204,
+  "orientation_yaw": 1.3685855692832023,
+  "sequence_number": 58
+}

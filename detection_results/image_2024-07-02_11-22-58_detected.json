@@ -1,0 +1,98 @@
+{
+  "objects_detected": [
+    {
+      "object_id": 1,
+      "type": "orange chair",
+      "attributes": {
+        "description": "An orange chair partially visible on the left side",
+        "color": "orange",
+        "size": "partially visible",
+        "location": "left side"
+      },
+      "confidence": 0.95,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 100,
+        "upper_x": 150,
+        "upper_y": 300
+      }
+    },
+    {
+      "object_id": 2,
+      "type": "wooden floor",
+      "attributes": {
+        "description": "A wooden floor with visible grain patterns",
+        "color": "brown",
+        "size": "large",
+        "location": "bottom half"
+      },
+      "confidence": 0.98,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 300,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    },
+    {
+      "object_id": 3,
+      "type": "window",
+      "attributes": {
+        "description": "A window with four panes",
+        "color": "white frame",
+        "size": "medium",
+        "location": "right side"
+      },
+      "confidence": 0.97,
+      "boundaries": {
+        "lower_x": 400,
+        "lower_y": 50,
+        "upper_x": 640,
+        "upper_y": 250
+      }
+    },
+    {
+      "object_id": 4,
+      "type": "framed picture",
+      "attributes": {
+        "description": "A framed picture hanging on the wall",
+        "color": "dark frame",
+        "size": "small",
+        "location": "left of window"
+      },
+      "confidence": 0.96,
+      "boundaries": {
+        "lower_x": 250,
+        "lower_y": 50,
+        "upper_x": 350,
+        "upper_y": 150
+      }
+    },
+    {
+      "object_id": 5,
+      "type": "room",
+      "attributes": {
+        "description": "A room with a wooden floor, window, and wall decorations",
+        "color": "neutral colors",
+        "size": "medium",
+        "location": "indoor"
+      },
+      "confidence": 0.9,
+      "boundaries": {
+        "lower_x": 0,
+        "lower_y": 0,
+        "upper_x": 640,
+        "upper_y": 480
+      }
+    }
+  ],
+  "image_dimensions": {
+    "width": 640,
+    "height": 480
+  },
+  "image_filename": "image_2024-07-02_11-22-58.jpg",
+  "position_x": -7.812685666381428,
+  "position_y": -2.863224477356498,
+  "orientation_yaw": -2.5236002743823405,
+  "sequence_number": 95
+}
